@@ -4,6 +4,9 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "collectCoverage":true
+    },
   "dependencies": {
     "jest": "^28.1.0"
   }
