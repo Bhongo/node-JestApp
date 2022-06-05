@@ -2,44 +2,44 @@ const mathOperations = require('../src/calculator');
  
 describe("Calculator Tests", () => {
 
- test("Addition of 2 numbers", () => {
+     test("Addition of 2 numbers", () => {
 
-   // arrange and act
-   var result = mathOperations.sum(1,2)
+       // arrange and act
+       var result = mathOperations.sum(1,2)
 
-   // assert
-   expect(result).toBe(3);
+       // assert
+       expect(result).toBe(3);
 
- });
+     });
 
- test("Subtraction of 2 numbers", () => {
+     test("Subtraction of 2 numbers", () => {
 
-   // arrange and act
-   var result = mathOperations.diff(10,2);
+       // arrange and act
+       var result = mathOperations.diff(10,2);
 
-   // assert
-   expect(result).toBe(21); //updated to fail
+       // assert
+       expect(result).toBe(21); //updated to fail
 
- });
+     });
 
 
- test("Multiplication of 2 numbers", () => {
+     test("Multiplication of 2 numbers", () => {
 
-   // arrange and act
-   var result = mathOperations.product(2,8)
+       // arrange and act
+       var result = mathOperations.product(2,8)
 
-   // assert
-   expect(result).toBe(10); //updated to fail
+       // assert
+       expect(result).toBe(10); //updated to fail
 
- });
+     });
 
- test("Division of 2 numbers", () => {
-  // arrange and act
-  var result = mathOperations.divide(24,8);
+     test("Division of 2 numbers", () => {
+      // arrange and act
+      var result = mathOperations.divide(24,8);
 
-  // assert
-  expect(result).toBe(3);
+      // assert
+      expect(result).toBe(3);
 
-});
+    });
 
 });
